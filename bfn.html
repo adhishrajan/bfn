@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Georgia Farms Visualizations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+            padding: 50px 0;
+        }
+        .section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            background: white;
+            flex-wrap: wrap;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            
+        }
+        .left, .right {
+            flex: 1;
+            padding: 20px;
+        }
+        .left {
+            text-align: right;
+        }
+        .right {
+            text-align: left;
+        }
+        h2 {
+            color: #000000;
+            font-size: 1.5em;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.5;
+        }
+        #datawrapper-chart-mZ9md {
+            width: 100%;
+            max-width: 100%;
+            min-width: unset !important;
+            height: auto;
+            min-height: 1000px; /* Adjust based on visualization *
+
+            /* height: 500px;
+            border: none;
+            border-radius: 8px; */
+        }
+        #datawrapper-chart-7OImW {
+            width: 100%;
+            max-width: 100%;
+            min-width: unset !important;
+            height: auto;
+            min-height: 580px; /* Adjust based on visualization *
+
+            /* height: 500px;
+            border: none;
+            border-radius: 8px; */
+        }
+        #datawrapper-chart-WLsOa {
+            width: 100%;
+            max-width: 100%;
+            min-width: unset !important;
+            height: auto;
+            min-height: 500px; /* Adjust based on visualization *
+
+            /* height: 500px;
+            border: none;
+            border-radius: 8px; */
+        }
+        #datawrapper-chart-1t47S {
+            width: 100%;
+            max-width: 100%;
+            min-width: unset !important;
+            height: auto;
+            min-height: 725px; /* Adjust based on visualization *
+            /* height: 500px;
+            border: none;
+            border-radius: 8px; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <iframe class="map" title="Map of Black Centennial Farms in Georgia" aria-label="Locator map" id="datawrapper-chart-mZ9md" src="https://datawrapper.dwcdn.net/mZ9md/1/" scrolling="no" frameborder="0" height="495" data-external="1"></iframe>
+            <!-- <div class="right">
+                <h2>Black Centennial Farms in Georgia</h2>
+                <p>This map showcases farms in Georgia that have been recognized as Black Centennial Farms, reflecting a rich history of agricultural resilience.</p>
+            </div> -->
+        </div>
+
+        <div class="section">
+            <div class="right">
+                <h2>Percentage of Centennial Award Winners that are Black-Owned</h2>
+                <p>Out of more than 620 farms recognized with the Georgia Centennial Farms Award over the past three decades, only 13 of them have been Black-owned farms. That is less than 2.1%.</p>
+            </div>
+            <img src="https://i.imgur.com/UJGjeGI.png" alt="">
+            <div class="right">
+                <p>Centennial Farms Program.” Georgia Department of Community Affairs, dca.georgia.gov/community-assistance/historic-preservation/centennial-farms-program. Accessed 18 Feb. 2025.</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <!-- <div class="left">
+                <h2>Georgia Farms by Race/Ethnicity</h2>
+                <p>This column chart presents data on internet access, direct sales, labor hiring, and ownership of farms in Georgia, broken down by race and ethnicity.</p>
+            </div> -->
+            <iframe class="not" title="Georgia Farms by Race/Ethnicity" aria-label="Column Chart" id="datawrapper-chart-7OImW" src="https://datawrapper.dwcdn.net/7OImW/1/" scrolling="no" frameborder="0" height="518" data-external="1"></iframe>
+        </div>
+        
+        <div class="section">
+            <iframe class="not" title="Balancing Act: Sales and Farms on Georgia's Black-Owned Land" aria-label="Scatter Plot" id="datawrapper-chart-WLsOa" src="https://datawrapper.dwcdn.net/WLsOa/1/" scrolling="no" frameborder="0" height="504" data-external="1"></iframe>
+            <!-- <div class="right">
+                <h2>Sales and Farms on Georgia's Black-Owned Land</h2>
+                <p>This scatter plot explores the relationship between farm sales and Black-owned farmland in Georgia, shedding light on economic trends in the industry.</p>
+            </div> -->
+        </div>
+
+
+        <div class="section">
+            <iframe class="not" title="A Tale of Two Sectors: Farm Sales by Value for Black and White Farmers in Georgia" aria-label="Interactive area chart" id="datawrapper-chart-1t47S" src="https://datawrapper.dwcdn.net/1t47S/2/" scrolling="no" frameborder="0" height="765" data-external="1"></iframe>
+        </div>
+
+    </div>
+</body>
+</html>
